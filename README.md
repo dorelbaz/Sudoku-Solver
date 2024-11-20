@@ -7,11 +7,11 @@ This project's GUI has been made with JavaFX.
 
 Changes made in the Sudoku Examiner:
 
-(I) Utilization of counter matrices instead of boolean matrices.
+        (I) Utilization of counter matrices instead of boolean matrices.
 
-(II) Remaned isValid() to is_Valid_Complete_Grid() and examine_Validity() to examine_Complete_Grid_Validity().
+        (II) Remaned isValid() to is_Valid_Complete_Grid() and examine_Validity() to examine_Complete_Grid_Validity().
 
-(III) Added constants.
+        (III) Added constants.
 
 
 
