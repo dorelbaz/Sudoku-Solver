@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<SplitPane dividerPositions="0.8371647509578544" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="545.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.sudokusolver.SudokuSolverController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <GridPane fx:id="grid" alignment="CENTER" hgap="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="717.0" vgap="2.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </GridPane>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="732.0">
+         <children>
+            <Button fx:id="solve" alignment="TOP_LEFT" layoutX="71.0" layoutY="29.0" mnemonicParsing="false" onAction="#solvePressed" text="Solve" />
+            <Button fx:id="reset" layoutX="207.0" layoutY="29.0" mnemonicParsing="false" onAction="#resetPressed" text="Reset" />
+            <Label layoutX="421.0" layoutY="33.0" prefHeight="16.0" prefWidth="144.0" text="Time in miliseconds:" />
+            <Label fx:id="time" layoutX="565.0" layoutY="35.0" prefHeight="16.0" prefWidth="144.0" />
+            <Label fx:id="error" layoutX="302.0" layoutY="35.0" prefHeight="16.0" prefWidth="83.0" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
