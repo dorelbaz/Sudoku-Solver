@@ -5,7 +5,7 @@ If the input grid is invalid, we'll notify the user with an error message,
 otherwise, we send it to the SudokuSolver class, there we will solve the grid utilizing concurrency.
 This project's GUI has been made with JavaFX.
 
-Changes made in the Sudoku Examiner:
+Changes made in Sudoku Examiner:
 
         (I) Utilization of counter matrices instead of boolean matrices.
 
