@@ -6,14 +6,18 @@ otherwise, we send it to the SudokuSolver class, there we will solve the grid ut
 This project's GUI has been made with JavaFX.
 
 Changes made in the Sudoku Examiner:
+
 (I) Utilization of counter matrices instead of boolean matrices.
+
 (II) Remaned isValid() to is_Valid_Complete_Grid() and examine_Validity() to examine_Complete_Grid_Validity().
+
 (III) Added constants.
+
 
 
 New features added to Sudoku Examiner:
 
-(*) In Sudoku Class:
+In Sudoku Class:
 
         (I) public boolean is_Valid_Incomplete_Grid() - Examines an incomplete sudoku grid for its validity.
   
@@ -23,7 +27,7 @@ New features added to Sudoku Examiner:
 
   
   
-(*) In Square3X3 class:
+In Square3X3 class:
 
       (I) public static Square3x3[][] construct_3X3Square_Array(int[][] grid) - Constructs a Square3x3 array according to a given grid.
   
