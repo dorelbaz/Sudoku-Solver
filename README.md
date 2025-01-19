@@ -9,7 +9,7 @@ Changes made in Sudoku Examiner:
 
         (I) Utilization of counter matrices instead of boolean matrices.
 
-        (II) Remaned isValid() to is_Valid_Complete_Grid() and examine_Validity() to examine_Complete_Grid_Validity().
+        (II) Renamed isValid() to is_Valid_Complete_Grid() and examine_Validity() to examine_Complete_Grid_Validity().
 
         (III) Added constants.
 
